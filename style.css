@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --verm: #dc2626;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    color: #d1d5db;
+    background-color: #030712;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100vw;
+}
+
+.container-sidebar{
+    height: 100vh;
+    width: 60px;
+    background-color: #111827;
+}
+
+.sideBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 60px;
+}
+
+.sideBar a{
+    color: #71717a;
+    padding: 8px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.sideBar a:hover{
+    background-color: var(--verm);
+}
+
+.first-block p{
+    font-weight: 200;
+}
+
+.vestical-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    background-color: #040917;
+}
+
+.vestical-container img{
+    height: 250px;
+}
+
+.second-block{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 155px;
+}
+
+.graphcs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 190px;
+}
+
+.first-gf{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 200px;
+}
+
+.firstbar{
+    height: 10px;
+    background-color: var(--verm);
+}
+
+.infoGr{
+    display: flex;
+    justify-content: space-between;
+    width: 195px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.secondbar{
+    height: 10px;
+    background-color: #111827;
+}
+
+.gftwoGraphc{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 200px;
+}
+
+.gftheeGf{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 200px;
+}
+
+.ndw{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nameWl{
+    margin-top: 20px;
+    background-color: #040917;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nameWl h1{
+    font-size: 34pt;
+    font-weight: 300;
+    color: #fff;
+}
+
+.nameWl p{
+    font-weight: 200;
+}
+
+.Barcalender{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+    width: 450px;
+    background-color: #040917;
+    border-radius: 10px;
+}
+
+.monthday{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+}
+
+.arrows *{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(83, 83, 83, 0.377);
+    transition: 0.3s;
+}
+
+.arrows *:hover{
+    background-color: var(--verm);
+}
+
+.fa-inbox{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: var(--verm);
+}
+
+.days-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #040917;
+    border-radius: 10px;
+}
+
+.box-days{
+    text-align: center;
+    width: 40px;
+    background-color: #060c1f;
+    border-radius: 10px 10px 0px 0px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.box-days:hover{
+    box-shadow: 0px 0px 10px var(--verm);
+}
+
+.d-top{
+    background-color: #111827;
+}
+
+.reposts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #040917;
+}
+
+.Cm-container{
+    display: flex;
+    gap: 10px;
+}
+
+.cm-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #111827;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.Cm-container .cm-container:hover{
+    background-color: var(--verm);
+}
+
+.cm-container p{
+    font-size: 10pt;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #040917;
+    border-radius: 10px;
+}
+
+.box-container p{
+    font-size: 11pt;
+}
+
+.op{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: var(--verm);
+}
+
+.k{
+    background-color: rgb(6, 85, 6);
+}
